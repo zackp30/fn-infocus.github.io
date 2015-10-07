@@ -1,0 +1,68 @@
+$fonts: 'Roboto', Arial, Helvetica, sans-serif;
+
+h1, h2, h3, h4 {
+	font-family: $fonts;
+	font-weight: 900;
+	letter-spacing: 2px;
+}
+
+p {
+	font-family: $fonts;
+	font-weight: 300;
+	font-size: 12pt;
+	line-height: 22px;
+	letter-spacing: 2px;
+}
+
+section {
+	padding: 100px 0;
+
+	&.theme1 {
+		background: $blue;
+		color: $white;
+	}
+
+	&.theme2 {
+		background: $white;
+		color: $black;
+	}
+
+	&.theme3 {
+		background: $grey;
+		color: $white;
+	}
+}
+
+.rule {
+	p {
+		font-size: 10pt;
+		line-height: 18px;
+		letter-spacing: 1px;
+	}
+
+	.rule-number {
+		background: $blue;
+		color: $white;
+
+		height: 42px;
+		width: 42px;
+		line-height: 42px;
+		border-radius: 5px;
+
+		font-size: 18pt;
+		margin: 14px auto;
+	}
+}
+
+footer {
+	background: $black;
+	color: $white;
+
+	padding: 10px 10px 40px;
+
+	p {
+		font-size: 11pt;
+		letter-spacing: 1px;
+		line-height: 18px;
+	}
+}
